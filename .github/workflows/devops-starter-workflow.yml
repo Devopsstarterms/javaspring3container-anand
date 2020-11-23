@@ -41,7 +41,7 @@ jobs:
       continue-on-error: false
       uses: actions/upload-artifact@v2
       with:
-        name: testartifacts\r\n        
+        name: testartifacts 
         path: ./Application/sampleWebApp.FunctionalTests/target
     - uses: azure/arm-deploy@v1
       id: createAcr
